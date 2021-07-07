@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Refresher</string>
+    <string name="deliveries">Deliveries</string>
+    <string name="todo">TODO</string>
+    <string name="under_deliveries">made easy</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="sign_in_to_continue">Sign In to Continue</string>
+    <string name="hello_message">Hello there, Welcome Back</string>
+    <string name="logo_image">logo_image</string>
+    <string name="signup_welcome">WELCOME</string>
+    <string name="sign_up_sign_up">Sign Up</string>
+    <string name="sign_up_password">Password</string>
+    <string name="sign_up_full_name">Full Name</string>
+    <string name="sign_up_username">Username</string>
+    <string name="sign_up_email">Email</string>
+    <string name="sign_up_phone_number">Phone Number</string>
+    <string name="sign_up_button_sign_up">SIGN UP</string>
+    <string name="sign_up_already_have_an_account_sign_in">Already have an account? Sign In</string>
+    <string name="welcome">WELCOME,</string>
+</resources>
