@@ -39,9 +39,12 @@ public class SignUp extends AppCompatActivity {
         phoneNumber = findViewById(R.id.regPhone);
         password = findViewById(R.id.regPassword);
 
+
         //Buttons
         registerButton = findViewById(R.id.regButton);
         loginButton = findViewById(R.id.regSignIn);
+        //regSignInButton = findViewById(R.id.regSignIn);
+
 
     }
 
@@ -104,7 +107,7 @@ public class SignUp extends AppCompatActivity {
 
     private Boolean validatePassword(){
         String val = Objects.requireNonNull(password.getEditText()).getText().toString();
-        String passwordPattern = "^" + "(?=.*[a-zA-Z])" + "(?=.*[@#$%^&+=])"+ "(?=\\s+$)" + ".{4,}" + "$";
+        //String passwordPattern = "^" + "(?=.*[a-zA-Z])" + "(?=.*[@#$%^&+=])"+ "(?=\\s+$)" + ".{4,}" + "$";
 
         if(val.isEmpty()){
             password.setError("Field cannot be empty");
@@ -140,4 +143,11 @@ public class SignUp extends AppCompatActivity {
         password.getEditText().setText("");
 
     }
+
+    public void goBack(View view){
+        Intent intent = new Intent(SignUp.this, Login.class);
+        startActivity(intent);
+        finish();
+    }
+
 }
